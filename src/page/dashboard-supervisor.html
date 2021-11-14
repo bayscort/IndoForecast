@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="../assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass&family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Salesman</title>
+</head>
+<body>
+    <div class="container-dashboard-supervisor">
+        <div class="navbar">
+            <div class="navbar-left">
+                <a href="#">Dashboard</a>
+            </div>
+            <div class="navbar-right">
+                <a href="#">
+                    <i class="fas fa-user"></i>
+                </a>
+            </div>
+        </div>
+        <div class="main_cards">
+            <div class="card">
+                <p class="text-primary-p">This month and last month sales</p>
+            </div>
+            <div class="card">
+                <p class="text-primary-p">20 JT/50 JT Target</p>
+                <p class="text-primary-p">Sales in period</p>
+            </div>
+        </div>
+        <div class="filter-card">
+            <p>filter</p>
+        </div>
+        <div class="chart-container">
+            <h2>Chart Forcast Sales</h2>
+            <canvas id="forecastChart" ></canvas>
+        </div>
+        <div class="table-container">
+            Table List
+        </div>
+        <div class="summary-container">
+            Summary Description
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.0/dist/chart.min.js"></script>
+    <script src="../page/dashboard-supervisor.js"></script>
+</body>
+</html>
